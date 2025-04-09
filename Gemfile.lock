@@ -1,0 +1,26 @@
+GEM
+  specs:
+    base64 (0.2.0)
+    logger (1.7.0)
+    nokogiri (1.18.7-x64-mingw-ucrt)
+      racc (~> 1.4)
+    racc (1.8.1)
+    rexml (3.4.1)
+    rubyzip (2.4.1)
+    selenium-webdriver (4.31.0)
+      base64 (~> 0.2)
+      logger (~> 1.4)
+      rexml (~> 3.2, >= 3.2.5)
+      rubyzip (>= 1.2.2, < 3.0)
+      websocket (~> 1.0)
+    websocket (1.2.11)
+
+PLATFORMS
+  x64-mingw-ucrt
+
+DEPENDENCIES
+  nokogiri
+  selenium-webdriver
+
+BUNDLED WITH
+   2.6.7
