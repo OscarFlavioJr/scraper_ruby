@@ -11,7 +11,7 @@ botaoMais = driver.find_element(id: 'maisVagas')
 driver.execute_script("arguments[0].scrollIntoView(true)", botaoMais)
 #Através de JS, colocamos a div em posição 0 (menor possível) e é clicado automaticamente!
 driver.execute_script("arguments[0].click();", botaoMais)
-sleep 2
+sleep 0.7
 #Evita que o código quebre quando as vagas forem encerradas!
 rescue Selenium::WebDriver::Error::NoSuchElementError
     puts "Todas as vagas já foram carregadas!"
