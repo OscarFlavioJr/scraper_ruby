@@ -8,7 +8,6 @@ driver.get("https://www.vagas.com.br/vagas-de-fleury")
 #Como o botão reaparece na página, adicionar um loop irá apertá-lo até não ter mais!
 loop do 
 botaoMais = driver.find_element(id: 'maisVagas')
-driver.execute_script("arguments[0].scrollIntoView(true)", botaoMais)
 #Através de JS, colocamos a div em posição 0 (menor possível) e é clicado automaticamente!
 driver.execute_script("arguments[0].click();", botaoMais)
 sleep 0.7
